@@ -1,0 +1,17 @@
+A reproducible Qiskit Aer experiment for Qiskit Fall Fest at Virginia Tech 2026.
+
+Code, raw counts, confidence intervals and reproduction instructions:
+https://github.com/Tomhao10225101490/QuantumNoise-Lab
+
+At p=0.10, the saved three-seed estimates are 10.107% unencoded error, 2.812% encoded error under independent X noise, and 14.945% encoded error under a fully pair-mixture channel with the same physical marginals.
+
+00:00 Research question
+00:18 Actual Qiskit repetition-code circuit
+00:41 Live Aer result and explicit cache labeling
+01:17 Fixed-marginal correlated noise
+01:44 Noisy syndrome reports and model-specific break-even
+02:15 Evidence, reproduction and limitations
+
+This is an edited walkthrough of actual application screen captures, a QuantumCircuit.draw() export, and plots derived from real Aer simulation CSV data. Some captures are held to match narration; this is not an uncut continuous recording. English narration is synthesized with the macOS Daniel voice; English captions are included.
+
+Simulator only: no real IBM Quantum hardware was used. The three-qubit repetition code protects against X errors in the specified basis, not arbitrary quantum errors. Results benchmark basis-state decoded Z errors; no arbitrary-state fidelity or universal fault-tolerance threshold is claimed.

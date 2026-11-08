@@ -15,7 +15,7 @@
 - [x] All original source and evidence inside QuantumNoise-Lab; environments ignored by Git.
 - [x] No fabricated data, hardware execution claim, arbitrary-error correction claim or universal-threshold claim.
 - [ ] Devpost project submitted (requires participant account and final entry).
-- [ ] Demo video recorded/uploaded (script prepared).
+- [x] Demo video produced and uploaded: 2:40, English narration/captions, YouTube unlisted plus GitHub Release backup.
 - [ ] Publicly hosted Streamlit deployment (local app is complete).
 
 Repository publication is recorded separately in results/repository.json and the delivery note after the push is verified. Remote CI is not equivalent to the already completed local test run.

@@ -34,3 +34,7 @@ The adjusted source/evidence commit was successfully pushed to main. Delivery is
 ## Demo and Devpost follow-up
 
 Produced a 159.81-second 720p H.264/AAC edited screen-capture walkthrough, English synthesized narration and captions. FFmpeg decoded the entire video without errors; eight representative frames were visually checked. The existing Devpost draft was populated in the authenticated local Chrome session (project ID 1288205; slug quantumnoise-lab). Cloudflare verification was completed by the user. Media and final legal acceptance/submission are being completed separately; this note does not claim the entry is submitted.
+
+The user completed YouTube channel creation/terms acceptance. The demo was uploaded and saved as unlisted at https://youtu.be/pw2w1IeWuGE. Devpost now shows DRAFT 3/4 steps done, with the complete story, Qiskit tag, code link, thumbnail, four captioned evidence images and the hosted video URL saved. The final terms checkbox remains unchecked and final competition submission is reserved for the participant. GitHub Release asset size/hash verification completed.
+
+Final preview verified: the hosted YouTube video played inside the Devpost project page with audio and the actual circuit footage visible. The draft is ready at 3/4 steps; only participant acceptance of Official Rules/Devpost Terms and the final Submit project action remain.

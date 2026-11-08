@@ -13,3 +13,5 @@ demo/output/qa_*
 demo/output/render.log
 demo/output/build.log
 demo/contact_sheet.jpg
+# Private account and submission-review screenshots
+docs/submission-proof/

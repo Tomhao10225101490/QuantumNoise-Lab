@@ -1,0 +1,16 @@
+{
+  "release_url": "https://github.com/Tomhao10225101490/QuantumNoise-Lab/releases/tag/demo-v1",
+  "assets": {
+    "QuantumNoise-Lab-demo.mp4": "https://github.com/Tomhao10225101490/QuantumNoise-Lab/releases/download/demo-v1/QuantumNoise-Lab-demo.mp4",
+    "QuantumNoise-Lab.en.srt": "https://github.com/Tomhao10225101490/QuantumNoise-Lab/releases/download/demo-v1/QuantumNoise-Lab.en.srt",
+    "devpost_thumbnail.png": "https://github.com/Tomhao10225101490/QuantumNoise-Lab/releases/download/demo-v1/devpost_thumbnail.png"
+  },
+  "release_video_size_verified": true,
+  "release_video_digest_verified": true,
+  "youtube_url": "https://youtu.be/pw2w1IeWuGE",
+  "youtube_visibility": "unlisted",
+  "youtube_channel": "@QuantumNoiseLabQFF2026",
+  "youtube_status": "Upload completed and saved; share-link confirmation observed in YouTube Studio",
+  "anonymous_browser_check": "Public title and Unlisted badge confirmed; playback in the automated anonymous browser requires YouTube bot sign-in verification",
+  "embedded_playback": "Verified: the Devpost preview iframe played the uploaded video with audio and actual circuit footage visible in the authenticated local browser"
+}
