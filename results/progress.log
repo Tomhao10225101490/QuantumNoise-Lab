@@ -1,1 +1,2 @@
 2026-11-08T13:14:33.516831+08:00 | STAGE delivery | complete: P0-P3, CSV/JSON/figures, 50 tests, browser checks, submission text | tests: passed | blockers: Devpost login/video not provided | next: public repository push
+STAGE publication | complete: public GitHub main pushed | tests: 50 passed, compile and Ruff passed, browser verified | blockers: workflow credential scope (inactive CI template), Devpost account/video | next: participant reviews and submits prepared Devpost materials

@@ -28,3 +28,5 @@ The code and all text materials are ready. A demo video has not been recorded or
 ## Repository publication
 
 Created the public repository https://github.com/Tomhao10225101490/QuantumNoise-Lab with the already configured local GitHub credential. The initial push was rejected because the OAuth credential lacks workflow scope. The workflow was retained as docs/ci/verify.yml (inactive template), allowing code publication without broadening access. Local checks remain completed; no remote Actions success is claimed.
+
+The adjusted source/evidence commit was successfully pushed to main. Delivery is recorded in docs/DELIVERY.md. Core implementation, evidence and submission materials are complete; Devpost submission and video remain outstanding as explicitly listed.
