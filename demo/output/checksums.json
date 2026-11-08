@@ -1,0 +1,15 @@
+{
+  "video_sha256": "14380d6ad228e6e6e352be744a0c4d7a171c39b9f530393e6d6610ec293c1fea",
+  "bytes": 3833059,
+  "full_decode": "passed",
+  "frame_QA_seconds": [
+    5,
+    25,
+    57,
+    73,
+    90,
+    117,
+    138,
+    155
+  ]
+}

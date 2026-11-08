@@ -1,0 +1,115 @@
+1
+00:00:01,000 --> 00:00:05,130
+Quantum error correction is supposed to protect quantum information.
+
+2
+00:00:05,130 --> 00:00:08,802
+But when does its extra machinery actually help?
+
+3
+00:00:08,802 --> 00:00:15,686
+QuantumNoise Lab tests that question using a three-qubit repetition code, real Qiskit circuits, and reproducible
+
+4
+00:00:15,686 --> 00:00:16,604
+simulator evidence.
+
+5
+00:00:18,604 --> 00:00:21,559
+We encode one qubit across three data qubits.
+
+6
+00:00:21,559 --> 00:00:26,362
+Two ancillas measure parity checks, and the measured syndrome controls an X correction.
+
+7
+00:00:26,362 --> 00:00:33,012
+One bit flip is correctable. Two flips imitate a single error on the remaining qubit, so the decoder
+
+8
+00:00:33,012 --> 00:00:39,293
+makes the wrong choice. This code protects against X errors; it does not correct arbitrary quantum noise.
+
+9
+00:00:41,293 --> 00:00:44,549
+Here the physical error probability is ten percent.
+
+10
+00:00:44,549 --> 00:00:51,469
+I choose independent noise, a basis-state input, a fixed seed and 8,192 shots, then press Run Simulation.
+
+11
+00:00:51,469 --> 00:00:56,354
+This executes Aer; moving a slider alone does not generate a result.
+
+12
+00:00:56,354 --> 00:01:00,831
+We display observed errors, the theoretical prediction and a confidence interval.
+
+13
+00:01:00,831 --> 00:01:08,158
+Across the saved three-seed experiment, the raw error is about ten percent and the encoded error is about
+
+14
+00:01:08,158 --> 00:01:15,078
+2.8 percent. A repeated configuration is explicitly labeled as cached, and I can force a fresh run.
+
+15
+00:01:17,078 --> 00:01:22,375
+Now we keep each physical qubit's error probability unchanged and introduce pair events.
+
+16
+00:01:22,375 --> 00:01:27,672
+The correlation control mixes independent noise with a channel that flips pairs together.
+
+17
+00:01:27,672 --> 00:01:33,376
+At full pair-mixture strength, the encoded error reaches about fifteen percent—worse than leaving the
+
+18
+00:01:33,376 --> 00:01:37,451
+information unencoded. The measured points follow the separately labeled theory.
+
+19
+00:01:37,451 --> 00:01:42,748
+The heatmap shows positive and negative correction benefit over the full parameter sweep.
+
+20
+00:01:44,748 --> 00:01:48,064
+Correction also depends on reading the syndrome correctly.
+
+21
+00:01:48,064 --> 00:01:52,210
+Our extension flips each parity report with a controlled probability.
+
+22
+00:01:52,210 --> 00:01:58,015
+At a ten-percent report-error rate, the measured benefit changes sign between physical error probabilities
+
+23
+00:01:58,015 --> 00:02:05,477
+of ten and fifteen percent. This is a break-even region for one simplified model, not a universal threshold.
+
+24
+00:02:05,477 --> 00:02:12,111
+We measure decoded Z errors on basis inputs, not arbitrary-state fidelity, and use Aer simulation rather
+
+25
+00:02:12,111 --> 00:02:13,355
+than real hardware.
+
+26
+00:02:15,355 --> 00:02:21,427
+The deliverable includes more than five million actual simulator shots, raw counts, fixed seeds, automated
+
+27
+00:02:21,427 --> 00:02:24,260
+tests, circuit images and an interactive lab.
+
+28
+00:02:24,260 --> 00:02:31,547
+The lesson is simple: whether correction helps depends on the structure of the errors and the cost of
+
+29
+00:02:31,547 --> 00:02:36,810
+extracting information about them. The repository lets anyone reproduce and challenge that result.

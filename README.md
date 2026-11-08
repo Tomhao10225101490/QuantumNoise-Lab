@@ -138,3 +138,7 @@ The official deadline was verified in the browser on November 8, 2026: **08:00 E
 Uses Qiskit, Qiskit Aer, NumPy, Pandas, SciPy, Plotly, Matplotlib, Streamlit, pytest and Ruff. Exact installed versions are pinned in `requirements.txt`. Original project code is MIT licensed; dependencies retain their respective licenses.
 
 An optional GitHub Actions configuration is retained in `docs/ci/verify.yml`. It is not enabled: the existing publication credential lacks workflow scope. Local checks have completed; no remote CI success is claimed. See `docs/ci/README.md` to enable it later.
+
+## Narrated demonstration
+
+[Watch or download the 2:40 English demo](demo/output/QuantumNoise-Lab-demo.mp4). It includes burned-in English captions, actual application captures, the Qiskit circuit and figures derived from measured CSV data. The narration is synthesized with the macOS Daniel voice. This is an edited walkthrough with held frames, not an uncut continuous recording. See [video provenance and reproduction](demo/README.md).

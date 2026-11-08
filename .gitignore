@@ -6,3 +6,10 @@ __pycache__/
 *.pyc
 .DS_Store
 .streamlit/secrets.toml
+# Regenerable narration and rendering intermediates
+demo/audio/
+demo/output/narration.wav
+demo/output/qa_*
+demo/output/render.log
+demo/output/build.log
+demo/contact_sheet.jpg

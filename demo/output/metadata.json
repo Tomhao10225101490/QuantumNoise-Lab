@@ -1,0 +1,51 @@
+{
+  "duration_seconds": 159.80977083333335,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 12,
+  "narration": "macOS Daniel synthetic voice, 165 wpm",
+  "chapters": [
+    {
+      "index": 0,
+      "start": 1.0,
+      "duration": 15.6038125,
+      "end": 16.6038125
+    },
+    {
+      "index": 1,
+      "start": 18.6038125,
+      "duration": 20.689,
+      "end": 39.2928125
+    },
+    {
+      "index": 2,
+      "start": 41.2928125,
+      "duration": 33.785041666666665,
+      "end": 75.07785416666667
+    },
+    {
+      "index": 3,
+      "start": 77.07785416666667,
+      "duration": 25.669666666666668,
+      "end": 102.74752083333334
+    },
+    {
+      "index": 4,
+      "start": 104.74752083333334,
+      "duration": 28.607,
+      "end": 133.35452083333334
+    },
+    {
+      "index": 5,
+      "start": 135.35452083333334,
+      "duration": 21.45525,
+      "end": 156.80977083333335
+    }
+  ],
+  "format": "Edited actual application screen captures with held frames, Qiskit circuit export and measured-evidence plots; not an uncut continuous recording.",
+  "caption_alignment": "Script-based proportional timing; English captions are approximate at sentence/chunk level.",
+  "hardware": false,
+  "file_bytes": 3833059
+}
