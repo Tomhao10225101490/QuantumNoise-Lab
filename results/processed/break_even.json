@@ -1,0 +1,99 @@
+{
+  "theoretical_crossings": [
+    {
+      "m": 0.01,
+      "theory_low_p_break_even": 0.010206207487660419,
+      "predicted_benefit_open_interval": [
+        0.010206207487660419,
+        0.5
+      ]
+    },
+    {
+      "m": 0.03,
+      "theory_low_p_break_even": 0.03198017863397135,
+      "predicted_benefit_open_interval": [
+        0.03198017863397135,
+        0.5
+      ]
+    },
+    {
+      "m": 0.05,
+      "theory_low_p_break_even": 0.05590291351751144,
+      "predicted_benefit_open_interval": [
+        0.05590291351751144,
+        0.5
+      ]
+    },
+    {
+      "m": 0.1,
+      "theory_low_p_break_even": 0.12919007564521678,
+      "predicted_benefit_open_interval": [
+        0.12919007564521678,
+        0.5
+      ]
+    }
+  ],
+  "observed_sign_change_brackets": [
+    {
+      "experiment": "break_even",
+      "c": 0.0,
+      "m": 0.01,
+      "input_state": 0,
+      "observed_sign_change_bracket": [
+        0.0,
+        0.02
+      ]
+    },
+    {
+      "experiment": "break_even",
+      "c": 0.0,
+      "m": 0.03,
+      "input_state": 0,
+      "observed_sign_change_bracket": [
+        0.02,
+        0.05
+      ]
+    },
+    {
+      "experiment": "break_even",
+      "c": 0.0,
+      "m": 0.05,
+      "input_state": 0,
+      "observed_sign_change_bracket": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "experiment": "break_even",
+      "c": 0.0,
+      "m": 0.1,
+      "input_state": 0,
+      "observed_sign_change_bracket": [
+        0.1,
+        0.15
+      ]
+    },
+    {
+      "experiment": "correlated",
+      "c": 0.25,
+      "m": 0.0,
+      "input_state": 0,
+      "observed_sign_change_bracket": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "experiment": "correlated",
+      "c": 0.5,
+      "m": 0.0,
+      "input_state": 0,
+      "observed_sign_change_bracket": [
+        0.15,
+        0.2
+      ]
+    }
+  ],
+  "benefit_interval": "Difference of two 97.5% Wilson intervals; Bonferroni gives approximately 95% pointwise coverage. No across-grid multiplicity control. Brackets use point estimates, not confidence bounds."
+}

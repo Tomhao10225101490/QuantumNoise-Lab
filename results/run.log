@@ -1,0 +1,51 @@
+STAGE baseline: Aer complete; 120 cumulative rows; blockers none
+STAGE correlated: Aer complete; 420 cumulative rows; blockers none
+STAGE break_even: Aer complete; 720 cumulative rows; blockers none
+{
+  "created_utc": "2026-11-08T05:06:41.586885+00:00",
+  "python": "3.12.16",
+  "qiskit": "2.6.2",
+  "aer": "0.18.2",
+  "shots_per_point": 8192,
+  "seeds": [
+    2026,
+    1701,
+    31415
+  ],
+  "p_grid": [
+    0,
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "c_grid": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "m_grid": [
+    0,
+    0.01,
+    0.03,
+    0.05,
+    0.1
+  ],
+  "backend": "AerSimulator/stabilizer",
+  "hardware": false,
+  "rows": 720,
+  "total_shots": 5898240,
+  "csv_sha256": {
+    "results/processed/summary.csv": "330fea078f6cf3bdc69beefa3fe4f00460086aff503432590f8cd9b5357ceb1b",
+    "results/raw/experiments.csv": "a1069d08890cae070982f7e97521b8543d113e70c81499a029b472b8b8252255"
+  },
+  "noise": "(1-c) IID Bernoulli(p) + c pair channel: P(000)=1-3p/2, P(each pair)=p/2",
+  "uncertainty": "Pointwise 95% Wilson; pooled across three seeds; not simultaneous bands"
+}
