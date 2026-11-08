@@ -38,3 +38,7 @@ Produced a 159.81-second 720p H.264/AAC edited screen-capture walkthrough, Engli
 The user completed YouTube channel creation/terms acceptance. The demo was uploaded and saved as unlisted at https://youtu.be/pw2w1IeWuGE. Devpost now shows DRAFT 3/4 steps done, with the complete story, Qiskit tag, code link, thumbnail, four captioned evidence images and the hosted video URL saved. The final terms checkbox remains unchecked and final competition submission is reserved for the participant. GitHub Release asset size/hash verification completed.
 
 Final preview verified: the hosted YouTube video played inside the Devpost project page with audio and the actual circuit footage visible. The draft is ready at 3/4 steps; only participant acceptance of Official Rules/Devpost Terms and the final Submit project action remain.
+
+## Final submission verified
+
+2026-11-08T14:01:46.444401+08:00: The participant completed the terms checkbox and Submit project action. The browser then displayed the exact confirmation "Project submitted! Continue to edit your project until the hackathon deadline: November 08, 2026 at 08:00am EST." and a SUBMITTED TO section for Qiskit Fall Fest at Virginia Tech. Project URL: https://devpost.com/software/quantumnoise-lab. The demo, public repository and competition submission are now complete.

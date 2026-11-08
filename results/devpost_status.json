@@ -2,8 +2,8 @@
   "project_url": "https://devpost.com/software/quantumnoise-lab",
   "submission_id": 1288205,
   "finalization_url": "https://devpost.com/submit-to/32054-qiskit-fall-fest-at-virginia-tech/manage/submissions/1288205-quantumnoise-lab/finalization",
-  "status": "draft_ready_3_of_4",
-  "participant_final_submission_required": true,
+  "status": "submitted",
+  "participant_final_submission_required": false,
   "terms_checkbox_checked_by_agent": false,
   "saved_fields": [
     "project name",
@@ -15,5 +15,9 @@
     "four captioned evidence images",
     "YouTube video URL"
   ],
-  "video_url": "https://youtu.be/pw2w1IeWuGE"
+  "video_url": "https://youtu.be/pw2w1IeWuGE",
+  "verified_at_shanghai": "2026-11-08T14:01:46.444401+08:00",
+  "submitted_by": "participant via local Chrome",
+  "verification": "Observed Project submitted! confirmation and SUBMITTED TO section on the project page",
+  "observed_confirmation": "Project submitted! Continue to edit your project until the hackathon deadline: November 08, 2026 at 08:00am EST."
 }

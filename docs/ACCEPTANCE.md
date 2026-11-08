@@ -14,7 +14,7 @@
 - [x] README, reproducibility notes, findings, Devpost English text and demo script complete.
 - [x] All original source and evidence inside QuantumNoise-Lab; environments ignored by Git.
 - [x] No fabricated data, hardware execution claim, arbitrary-error correction claim or universal-threshold claim.
-- [ ] Devpost project submitted (requires participant account and final entry).
+- [x] Devpost project submitted by the participant; agent verified the Project submitted! confirmation and SUBMITTED TO section.
 - [x] Demo video produced and uploaded: 2:40, English narration/captions, YouTube unlisted plus GitHub Release backup.
 - [ ] Publicly hosted Streamlit deployment (local app is complete).
 
